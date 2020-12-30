@@ -20,7 +20,6 @@ def selection(num)
     puts ham
     ham
   end
-  binding.pry
 end
 
 def runner
