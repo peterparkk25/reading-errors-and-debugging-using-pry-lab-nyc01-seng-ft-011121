@@ -12,14 +12,11 @@ end
 
 def selection(num)
   if num = 1
-    hamburger = "YUM YUM MUNCH MUNCH MUNCH"
-    puts hamburger
-    hamburger
-  else
-    ham = "HAM HAM HAM IN MY TUMMY"
-    puts ham
-    ham
+    puts = "YUM YUM MUNCH MUNCH MUNCH"
+  elsif num = 2
+    puts "HAM HAM HAM IN MY TUMMY"
   end
+  binding.pry
 end
 
 def runner
