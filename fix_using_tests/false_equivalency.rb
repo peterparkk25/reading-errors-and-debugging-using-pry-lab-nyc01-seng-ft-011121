@@ -1,5 +1,5 @@
 # don't forget to add: require 'pry'
-
+require 'pry' 
 def get_user_input
   gets.chomp
 end
@@ -12,9 +12,13 @@ end
 
 def selection(num)
   if num = 1
-     "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
-     "HAM HAM HAM IN MY TUMMY"
+    hamburger = "YUM YUM MUNCH MUNCH MUNCH"
+    puts hamburger
+    hamburger
+  else
+    ham = "HAM HAM HAM IN MY TUMMY"
+    puts ham
+    ham
   end
 end
 
