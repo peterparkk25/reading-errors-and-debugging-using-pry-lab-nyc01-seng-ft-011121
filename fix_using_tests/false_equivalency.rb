@@ -12,10 +12,13 @@ end
 
 def selection(num)
   if num == 1
-    hamburger = 
-    puts = "YUM YUM MUNCH MUNCH MUNCH"
+    hamburger = "YUM YUM MUNCH MUNCH MUNCH"
+    puts hamburger
+    hamburger
   elsif num == 2
-    puts "HAM HAM HAM IN MY TUMMY"
+    ham = "HAM HAM HAM IN MY TUMMY"
+    puts ham
+    ham
   end
   binding.pry
 end
